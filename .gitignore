@@ -1,0 +1,9 @@
+*.timestamp
+SearchObjects
+Features
+Results
+Sessions
+TableScripts
+/SearchObjects
+.DS_Store
+.run
