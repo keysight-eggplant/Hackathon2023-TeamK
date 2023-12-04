@@ -1,15 +1,8 @@
-﻿to register
-	main.navigate ("Register"),("Your Personal Details")
-end register
-
-// delete 
-to menuOptions category,subcategory
-	mainMenu (category),(subCategory)
-end menuOptions
-
+﻿
 to mainMenu category, subCategory
-	moveto text:category,searchRectangle:(1,75,1600,1159)
-	wait 1
-	main.navigate (subCategory),("Sort by")
-	apiProduct.fetch (category),(subCategory)
+	moveto text:category,searchRectangle:(your_browser_searchRectangle)
+	wait 0.5 // animation of dropdown to complete
+	//navigation function (subCategory),("Sort by")
+	//apicall (category),(subCategory)
 end mainMenu
+
